@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="demo.zq.com.customdemo1.MainActivity">
+
+    <!--<demo.zq.com.customdemo1.customView.CustomPaint-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:boardBackground="#ffffff"-->
+    <!--app:paintColor="#000000"-->
+    <!--app:paintWidth="13dp" />-->
+
+    <demo.zq.com.customdemo1.customView.CustomProgress
+        android:id="@+id/custom_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:bigCircleColor="#3de822"
+        app:circleColor="#ffffff"
+        app:radius="30dp"
+        app:strokeWidth="10dp"
+        app:textColor="#000" />
+
+    <demo.zq.com.customdemo1.customView.CustomProgress
+        android:id="@+id/custom_progress2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:bigCircleColor="#2257e8"
+        app:circleColor="#ffffff"
+        app:radius="30dp"
+        app:strokeWidth="10dp"
+        app:textColor="#000" />
+
+    <demo.zq.com.customdemo1.customView.CustomProgress
+        android:id="@+id/custom_progress3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:bigCircleColor="#2257e8"
+        app:circleColor="#cf1111"
+        app:radius="30dp"
+        app:ringColor="#3cd10f"
+        app:strokeWidth="10dp"
+        app:textColor="#fff" />
+</LinearLayout>

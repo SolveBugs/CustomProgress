@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义实现写字板-->
+    <declare-styleable name="CustomPaint">
+        <attr name="boardBackground" format="color"></attr> <!--写字板背景颜色-->
+        <attr name="paintColor" format="color"></attr><!--画笔颜色-->
+        <attr name="paintWidth" format="dimension"></attr><!--画笔宽度-->
+    </declare-styleable>
+
+    <!--自定义进度条-->
+    <declare-styleable name="CustomProgress">
+        <attr name="radius" format="dimension" /><!--半径-->
+        <attr name="strokeWidth" format="dimension" /><!--画笔宽度-->
+        <attr name="circleColor" format="color" /><!--内圆颜色-->
+        <attr name="ringColor" format="color" /><!--进度条颜色-->
+        <attr name="totalProgress" format="integer" /><!--总进度-->
+        <attr name="textColor" format="color|reference" /><!--字体颜色-->
+        <attr name="bigCircleColor" format="color" /><!--外圆颜色-->
+    </declare-styleable>
+</resources>
