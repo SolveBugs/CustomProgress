@@ -77,11 +77,13 @@ public class CustomProgress extends View {
         mCirclePaint = new Paint();
         mCirclePaint.setAntiAlias(true);
         mCirclePaint.setColor(mCircleColor);
+        mCirclePaint.setStrokeCap(Paint.Cap.ROUND);
         mCirclePaint.setStyle(Paint.Style.FILL);
 
         mRingPaint = new Paint();
         mRingPaint.setAntiAlias(true);
         mRingPaint.setColor(mRingColor);
+        mRingPaint.setStrokeCap(Paint.Cap.ROUND);
         mRingPaint.setStyle(Paint.Style.STROKE);
         mRingPaint.setStrokeWidth(mStrokeWidth);
 
